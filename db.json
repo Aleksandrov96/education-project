@@ -1,0 +1,140 @@
+{
+  "courses": [
+    {
+      "name": "js",
+      "id": "324be5b-57f5-bfe-dd8a-0e8f174657af",
+      "testsIDs": [
+        "558e2fe7-b85b-4f3d-af63-7a1fb91ccb12",
+        "e8beb70f-614f-4398-b81b-8fc604380011"
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "name": "JS-Advanced",
+      "description": "JS-Advanced",
+      "id": "558e2fe7-b85b-4f3d-af63-7a1fb91ccb12",
+      "courseId": "324be5b-57f5-bfe-dd8a-0e8f174657af",
+      "questions": [
+        {
+          "description": "How many variables in JS?",
+          "options": [
+            {
+              "isCorrect": false,
+              "description": "5"
+            },
+            {
+              "isCorrect": true,
+              "description": "8"
+            },
+            {
+              "isCorrect": false,
+              "description": "20"
+            },
+            {
+              "isCorrect": false,
+              "description": "10"
+            }
+          ]
+        },
+        {
+          "description": "JavaScript is a subset of Java, right?",
+          "options": [
+            {
+              "isCorrect": false,
+              "description": "Yes"
+            },
+            {
+              "isCorrect": true,
+              "description": "No"
+            },
+            {
+              "isCorrect": false,
+              "description": "On the contrary, Java is a subspecies of JavaScript."
+            }
+          ]
+        },
+        {
+          "description": "How many parameters can be passed to a function?",
+          "options": [
+            {
+              "isCorrect": false,
+              "description": "How many are specified in the function definition, or more."
+            },
+            {
+              "isCorrect": false,
+              "description": "How much is specified in the function definition, or less."
+            },
+            {
+              "isCorrect": true,
+              "description": "Any quantity."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DOM",
+      "description": "DOM",
+      "id": "e8beb70f-614f-4398-b81b-8fc604380011",
+      "courseId": "324be5b-57f5-bfe-dd8a-0e8f174657af",
+      "questions": [
+        {
+          "description": "Is it possible to get the content of a comment from JavaScript?",
+          "options": [
+            {
+              "isCorrect": true,
+              "description": "Yes, the comment is a DOM node, you can always get it."
+            },
+            {
+              "isCorrect": false,
+              "description": "No, comments are in the HTML but not in the DOM."
+            },
+            {
+              "isCorrect": false,
+              "description": "You can get it, but only until the page is loaded."
+            }
+          ]
+        },
+        {
+          "description": "Can the script connect other external js files to it while the page is running?",
+          "options": [
+            {
+              "isCorrect": false,
+              "description": "Yes, but only once."
+            },
+            {
+              "isCorrect": false,
+              "description": "Yes, but only until the page is fully loaded."
+            },
+            {
+              "isCorrect": true,
+              "description": "Yes, as many files as you want, at any time."
+            }
+          ]
+        },
+        {
+          "description": "When is an element guaranteed to have the same offsetHeight and clientHeight?",
+          "options": [
+            {
+              "isCorrect": false,
+              "description": "When an element has no border."
+            },
+            {
+              "isCorrect": true,
+              "description": "When an element doesn't have border and padding."
+            },
+            {
+              "isCorrect": false,
+              "description": "When an element doesn't have a border, padding and margin."
+            },
+            {
+              "isCorrect": false,
+              "description": "When an element has no scroll."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

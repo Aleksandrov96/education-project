@@ -1,0 +1,52 @@
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #EAEEF7;
+  height: auto;
+  
+  &__content {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+    &-title {
+      margin-top: 3rem;
+    }
+
+    &-showcase {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  
+      .employee {
+        background-color: #411fed;
+        border-radius: 2rem;
+      }
+  
+      .education {
+        background-color: #3db753;
+        border-radius: 2rem;
+      }
+    }
+  }
+
+  &__description {
+    border-radius: 2rem;
+    background-color: #fff;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    font-size: 22px;
+    margin-bottom: 2rem;
+    height: auto;
+  }
+
+  &__link {
+    background-color: #f3206d;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    padding: .5rem 2rem;
+    border-radius: .5rem;
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "rootDir": "./src/",
+    "baseUrl": "./src/",
+    "lib": ["dom", "dom.iterable", "esnext", "ES2015"],
+    "allowJs": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
+    "typeRoots": ["./declaration.d.ts"],
+    "paths": {
+      "common/*": ["./src/components/common/"],
+      "pages/*": ["./src/components/pages/"],
+      "images/*": ["./src/images/"],
+      "utils/*": ["./src/utils/"],
+    }
+  },
+  "include": ["src", "declaration.d.ts"],
+  "exclude": [
+    "node_modules"
+  ]
+}

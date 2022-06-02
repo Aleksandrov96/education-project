@@ -1,0 +1,53 @@
+$color-primary: #18AEEF;
+
+.courses {
+  &__pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+
+    &-previous, &-item, &-next {
+      list-style-type: none;
+
+      a {
+        background-color: #fff;
+        border: 1px solid $color-primary;
+        color: $color-primary;
+        padding: .4rem .7rem;
+        border-radius: .5rem;
+        cursor: pointer;
+        margin: 1rem;
+        text-transform: uppercase;
+        transition: .3s all;
+
+        &:hover {
+          background-color: $color-primary;
+          color: #fff;
+        }
+      }
+      
+    }
+
+    &-break {
+      list-style-type: none;
+
+      a {
+        background-color: var(--color-primary);
+        padding: .4rem .7rem;
+        border-radius: .5rem;
+        color: #fff;
+        transition: .3s all;
+        margin: 1rem;
+      }
+    }
+
+    &-active {
+      a {
+        background-color: #18AEEF;
+        color: #fff; 
+      }
+    }
+  }
+}

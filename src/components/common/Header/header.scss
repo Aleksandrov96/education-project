@@ -1,0 +1,58 @@
+$color-primary: #18AEEF;
+
+header {
+  width: 100%;
+  height: 5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+
+  .headerLogo {
+    margin: 1rem;
+
+    .title {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      font-size: 1.8rem;
+      color: #18AEEF;
+      font-weight: 500;
+      text-decoration: none;
+
+      &__logo {
+        width: 2.5rem;
+        height: 3rem;
+        margin: 1rem;
+      }
+    }
+
+  }
+
+    .logoutBtn {
+      margin: 1rem;
+      width: 10rem;
+      border: none;
+      color: #fff;
+      padding: 15px 45px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      letter-spacing: .2rem;  
+      transition: .3s all;
+      background-color: $color-primary;
+    
+      &:hover {
+          background-color: #fff;
+          color: $color-primary;
+          border: 1px solid $color-primary;
+      }
+    
+      &:active {
+          transform: translateY(4px);
+      }
+    }
+}

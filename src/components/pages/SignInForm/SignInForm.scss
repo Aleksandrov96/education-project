@@ -1,0 +1,89 @@
+:root {
+  --color-primary: #18AEEF;
+}
+
+.signInForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  
+  .auth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    width: 40rem;
+    height: 25rem;
+    background-color:#fff;
+  }
+}
+
+.submitBtn {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 65%;
+  border: none;
+  color: #fff;
+  padding: 15px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 16px;
+  letter-spacing: .2rem;  
+  transition: .3s all;
+  background-color: var(--color-primary);
+
+  &:hover {
+      background-color: #fff;
+      color: var(--color-primary);
+      border: 1px solid var(--color-primary);
+  }
+
+  &:active {
+      transform: translateY(4px);
+  }
+}
+
+.formInput {
+  width: 25rem;
+  height: 3rem;
+  outline: none;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  margin-top: .25rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  
+  &:focus {
+    border: 2px solid #808080;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    .labelText {
+      letter-spacing: .2rem;
+      font-size: medium;
+      font-weight: 400;
+      margin-top: .5rem;
+      margin-bottom: .5rem;
+      font-family: 'Courier New', Courier, monospace;
+    }
+  
+    .validationError {
+      text-align: right;
+      color: #FF0000;
+    }
+  }
+}
+
